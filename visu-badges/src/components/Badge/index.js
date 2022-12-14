@@ -35,19 +35,19 @@ export default function Badge() {
 
         <ScrollView horizontal={true}>
           <TouchableOpacity >
-            <Image style={styles.item} source={IMAGES.badgeAvanco} />
-          </TouchableOpacity>
-
-          <TouchableOpacity>
             <Image style={styles.item} source={IMAGES.badgeMerito} />
           </TouchableOpacity>
 
           <TouchableOpacity>
-            <Image style={styles.item} source={IMAGES.badgePersistencia} />
+            <Image style={styles.item} source={IMAGES.badgeConquista} />
           </TouchableOpacity>
 
           <TouchableOpacity>
-            <Image style={styles.item} source={IMAGES.badgeConquista} />
+            <Image style={styles.item} source={IMAGES.badgeAvanco} />
+          </TouchableOpacity>
+
+          <TouchableOpacity>
+            <Image style={styles.item} source={IMAGES.badgePersistencia} />
           </TouchableOpacity>
 
           <TouchableOpacity>

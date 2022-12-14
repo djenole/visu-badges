@@ -9,14 +9,14 @@ export const styles = StyleSheet.create({
         flexDirection:'row',
         alignItems:'center',
         justifyContent: 'center',
-        backgroundColor: 'rgba(255,255,255, 0.62)'
+        backgroundColor: 'white'
     },
     
 
     item: {
-        width: 60,
-        height: 60,
-        margin: 20,
+        width: 90,
+        height: 90,
+        margin: 5,
     },
     modalView: {
         borderRadius: 30,
